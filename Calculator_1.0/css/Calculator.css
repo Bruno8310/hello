@@ -1,0 +1,101 @@
+
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			body{
+				height: 800px;
+				background-image: url(../img/img_0130.jpg);
+				background-position:center;
+			    background-repeat:no-repeat;
+			    background-attachment:scroll;
+			}
+			
+			h1{  margin-top: 50px;
+			     margin-bottom: 0px;
+				 text-align: center;
+				 font-family: arial;
+				 font-style: oblique;
+				 cursor: pointer;
+				 
+			}
+			h1:hover{
+				color: #33ffff;
+			}
+			table{ 
+				  border: 3px solid #d966ff;
+				  margin:  100px auto;
+				  border-collapse: collapse;
+				  filter:alpha(opacity=40);
+				  opacity:0.6;
+			}
+			
+			td{ 
+				border: 1px solid #d966ff;
+				text-align: center;
+			}
+			
+			#result,#result1{
+				width: 500px;
+				height: 60px;
+				font-size: x-large;
+				cursor: pointer;
+			}
+			
+			.btn1{
+				width: 100px;
+				height: 40px;
+				font-size: x-large;
+				background: #ccf2ff	;
+				cursor: pointer;
+			}
+			
+			.btn1:hover{
+				background: #ffccff;
+			}
+			.btn2{
+				width: 100px;
+				height: 40px;
+				font-size: x-large;
+				background: #cce5ff	;
+				cursor: pointer;
+			}
+			
+			.btn2:hover{
+				background: #ffccf2;
+			}
+			.btn3{
+				width: 100px;
+				height: 40px;
+				font-size: x-large;
+				background: #ccd9ff;
+				cursor: pointer;
+			}
+			
+			.btn3:hover{
+				background: #ffcce6;
+			}
+			.btn4{
+				width: 100px;
+				height: 40px;
+				font-size: x-large;
+				background: #ccccff;
+				cursor: pointer;
+			}
+			
+			.btn4:hover{
+				background: #9cccfc;
+			}
+			.btn5{
+				width: 100px;
+				height: 40px;
+				font-size: x-large;
+				background: #d9ccff;
+				cursor: pointer;
+			}
+			
+			.btn5:hover{
+				background:#cdfef1;
+			}
+			

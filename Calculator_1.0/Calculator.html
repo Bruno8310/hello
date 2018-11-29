@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>The page is calculator</title>
+		<link rel="stylesheet" href="css/Calculator.css" />
+		<script type="text/javascript" src="js/Calculator.js" ></script>
+	</head>
+	<body>
+		<h1>A simple calculator</h1>
+		<table>
+		    <tr>
+				<td colspan="5">
+					<input id="result" type="text" disabled="disabled">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="5">
+					<input id="result1" type="text" disabled="disabled">
+				</td>
+			</tr>
+			<tr>
+				<td><button class="btn1" onclick="input_calcu3('√')">√</button></td>
+				<td><button class="btn1" onclick="AC()">AC</button></td>
+				<td><button class="btn1" onclick="input_calcu3('/')">/</button></td>
+				<td><button class="btn1" onclick="input_calcu3('*')">*</button></td>
+				<td><button class="btn1" onclick="Del()">DEL</button></td>
+			</tr>
+			<tr>
+			    <td><button class="btn2" onclick="input(')')">)</button></td>
+			    <td><button class="btn2" onclick="input(7)">7</button></td>
+			    <td><button class="btn2" onclick="input(8)">8</button></td>
+			    <td><button class="btn2" onclick="input(9)">9</button></td>
+			    <td><button class="btn2" onclick="input_calcu2()">-</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn3" onclick="input_calcu1('sin')">sin</button></td><td><button class="btn3" onclick="input(4)">4</button></td>
+				<td><button class="btn3" onclick="input(5)">5</button></td>
+				<td><button class="btn3" onclick="input(6)">6</button></td>
+				<td><button class="btn3" onclick="input_calcu3('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn4" onclick="input_calcu1('cos')">cos</button></td>
+				<td><button class="btn4" onclick="input(1)">1</button></td>
+				<td><button class="btn4" onclick="input(2)">2</button></td>
+				<td><button class="btn4" onclick="input(3)">3</button></td>
+				<td><button class="btn4" onclick="equal()">=</button></td>
+			</tr>
+			<tr>
+				<td><button class="btn5" onclick="input_calcu1('tan')">tan</button></td>
+				<td><button class="btn5" onclick="input_calcu3('%')">%</button></td>
+				<td><button class="btn5" onclick="input(0)">0</button></td>
+				<td><button class="btn5" onclick="input('.')">.</button></td>
+				<td><button class="btn5" onclick="input('π')">π</button></td>
+			</tr>
+		</table>
+	</body>
+</html>
